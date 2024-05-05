@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 2, 32);
+    margin: 8px;
+}
+
+p {
+    font-family: "Sedan SC", serif;
+    display: flex;
+    justify-content: center;
+    padding: 1.5px;
+    margin-top: 5px;
+}
+
+i {
+    cursor: pointer;
+    height: 2rem;
+    margin: .5rem;
+}
+
+/* espaçamento dos botões */
+#container-botoes {
+    width: 100%;
+    display: flex;
+}
+
+/* tamanho dos botões */
+
+#play-pause {
+    font-size: 3rem;
+}
+
+#anterior, #proximo {
+    font-size: 3rem ;
+}
+
+#informacoes-faixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    box-shadow: 2px 1px 3px;
+    height: 400px;
+    width: 300px;
+}
+
+html {
+    background-color: cornflowerblue;
+}
